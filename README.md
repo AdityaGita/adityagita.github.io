@@ -1,1 +1,1 @@
-adityamg.github.io/
+adityamg.github.io
