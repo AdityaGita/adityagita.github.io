@@ -110,6 +110,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden; 
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
