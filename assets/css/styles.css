@@ -532,6 +532,14 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.portfolio__skills {
+  font-size: var(--big-font-size);
+  border: 1rem solid;
+  border-radius: 1rem;
+  background: fixed;
+  background-color: blue;
+}
+
 .portfolio__button:hover .button__icon {
   transform: translateX(.25rem);
 }

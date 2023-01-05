@@ -164,7 +164,7 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal(`.home__data, .section__title, .section__subtitle, .certificate__bg`)
+sr.reveal(`.home__data, .certificate__bg`)
 sr.reveal(`.home__img`, {delay: 500, origin: 'right'})
 sr.reveal(`.home__social`, {delay: 600, origin: 'left'})
 sr.reveal(`.home__scroll`, {delay: 700, origin: 'bottom'})
