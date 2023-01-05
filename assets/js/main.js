@@ -56,7 +56,7 @@ tabs.forEach (tab =>{
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortolio = new Swiper(".portfolio__container", {
+let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
 
@@ -68,6 +68,7 @@ let swiperPortolio = new Swiper(".portfolio__container", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    mousewheel: false,
 });
 
 /*==================== TESTIMONIAL ====================*/
